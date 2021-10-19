@@ -1,6 +1,4 @@
 @import "_variables.css";
-
 @import "_reset.css";
-
-
-
+@import "_header.css";
+@import "_structure.css";
