@@ -1,3 +1,6 @@
-body {
-  background-color: red;
-}
+:root {
+  --blue: #2094B9;
+  --cinza: #DAD5D5;
+  --rosa: #EEA2A0;
+  --primary-font: 'Roboto', sans-serif;
+};
