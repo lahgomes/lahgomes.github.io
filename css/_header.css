@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  padding: 50px 140px;
+}
+
+.header__presentation {
+  margin: 0 auto;
+  width: 790px;
+  background-color: var(--blue);
+  padding: 20px 20px 20px 150px;
+  position: relative;
+  color: var(--branco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  font-family: var(--primary-font);
+  font-size: 18px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.header__hello {
+  font-size: 36px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.header__avatar {
+  border-radius: 50%;
+  height: 210px;
+  width: 210px;
+  object-fit: cover;
+  position: absolute;
+  top: -35px;    
+  left: -16px;    
+}
+
+
