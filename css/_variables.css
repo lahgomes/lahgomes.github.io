@@ -1,7 +1,8 @@
 :root {
   --blue: #2094B9;
-  --cinza: #DAD5D5;
-  --rosa: #EEA2A0;
-  --branco: #fff;
+  --gray: #DAD5D5;
+  --pink: #EEA2A0;
+  --white: #fff;
+  --black: #000;
   --primary-font: 'Roboto', sans-serif;
 };
