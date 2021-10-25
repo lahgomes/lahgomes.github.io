@@ -37,13 +37,13 @@
   left: -16px;    
 }
 
-@media (max-width: 768px) {
+@media (max-width: 940px) {
   .header {
    padding: 5px;
   }
 
   .header__presentation {
-    font-size: 12px;
+    font-size: 14px;
     width: 100%;
     padding: 15px;   
   }
@@ -53,5 +53,9 @@
     width: 150px;
     align-items: center;
     position: initial;   
+  }
+
+  .header__hello {
+    font-size: 30px;
   }
 }
