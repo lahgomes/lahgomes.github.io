@@ -37,4 +37,21 @@
   left: -16px;    
 }
 
+@media (max-width: 768px) {
+  .header {
+   padding: 5px;
+  }
 
+  .header__presentation {
+    font-size: 12px;
+    width: 100%;
+    padding: 15px;   
+  }
+
+  .header__avatar {
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    position: initial;   
+  }
+}

@@ -31,3 +31,11 @@
   color: var(--pink);
   background-color:var(--white);
 }
+
+@media (max-width: 768px) {
+  .link {
+    font-size: 12px;
+    margin-bottom: 5px;
+
+  }
+}

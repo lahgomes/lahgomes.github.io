@@ -27,3 +27,18 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+  .contact {
+   padding: 10px;
+  }
+
+  .contact__titulo {
+    font-size: 14px;
+  }
+
+  .contact__links {
+    flex-direction: column;
+    align-items: center; 
+  }
+}

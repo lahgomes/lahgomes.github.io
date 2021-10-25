@@ -32,3 +32,17 @@
   word-spacing: 4px;
   line-height: 1.8;
 }
+
+@media (max-width: 768px) {
+  .about {
+   padding: 10px;
+  }
+
+  .about__titulo {
+    font-size: 14px;
+  }
+
+  .about__text {
+    font-size: 12px;
+  }
+}
