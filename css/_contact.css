@@ -1,9 +1,9 @@
-.about {
-  padding: 20px 150px 50px 150px;
-  background-color: var(--gray);
+.contact {
+  width: 100%;
+  padding: 20px 150px 50px 150px; 
 }
 
-.about__titulo {
+.contact__titulo {
   font-size: 18px;
   font-style: italic;
   padding: 15px;
@@ -13,7 +13,7 @@
   width: fit-content;
 }
 
-.about__titulo::before {
+.contact__titulo::before {
   content: '';
   position: absolute;
   width: calc(50px + 100%);
@@ -23,12 +23,7 @@
   right: 15px;
 }
 
-.about__text {
-  font-size: 18px;
-  margin-top: 10px;
-  margin-left: 60px;
-  margin-right: 60px;
-  text-align: justify;
-  word-spacing: 4px;
-  line-height: 1.8;
+.contact__links {
+  display: flex;
+  justify-content: space-between;
 }
