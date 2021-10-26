@@ -3,6 +3,12 @@
   background-color: var(--gray);
 }
 
+@media (max-width: 768px) {
+  .about {
+   padding: 20px 10px;
+ }
+}
+
 .about__titulo {
   font-size: 18px;
   font-style: italic;
@@ -11,6 +17,12 @@
   position: relative;
   display: block;
   width: fit-content;
+}
+
+@media (max-width: 768px) {
+  .about__titulo {
+    font-size: 14px;
+  }
 }
 
 .about__titulo::before {
@@ -34,14 +46,6 @@
 }
 
 @media (max-width: 768px) {
-  .about {
-   padding: 20px 10px;
- }
-
-  .about__titulo {
-    font-size: 14px;
-  }
-
   .about__text {
     font-size: 14px;
   }

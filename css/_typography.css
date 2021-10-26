@@ -17,6 +17,17 @@
   transition: 0.2s;  
 }
 
+@media (max-width: 768px) {
+  .link {
+    font-weight: bold;
+    padding: 15px; 
+    width: 120px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
 .link:hover {
   color: var(--pink);
   background-color:var(--white);
@@ -30,15 +41,4 @@
 .link:active, .link:focus {
   color: var(--pink);
   background-color:var(--white);
-}
-
-@media (max-width: 768px) {
-  .link {
-    font-weight: bold;
-    padding: 15px; 
-    width: 120px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
 }
