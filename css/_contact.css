@@ -3,6 +3,12 @@
   padding: 20px 150px 50px 150px; 
 }
 
+@media (max-width: 768px) {
+  .contact {
+   padding: 10px;
+  }
+}
+
 .contact__titulo {
   font-size: 18px;
   font-style: italic;
@@ -11,6 +17,12 @@
   position: relative;
   display: block;
   width: fit-content;
+}
+
+@media (max-width: 768px) {
+  .contact__titulo {
+    font-size: 14px;
+  }
 }
 
 .contact__titulo::before {
@@ -26,4 +38,11 @@
 .contact__links {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .contact__links {
+    flex-direction: column;
+    align-items: center; 
+  }
 }
